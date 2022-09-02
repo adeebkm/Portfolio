@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,14 @@
     <title>Adeeb K.M - Web Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body id="stop-scrolling">
+
+    <div class="preloader"></div>
     <!--mouse dot-->
     <div class="mcircle"></div>
     <div class="mdot"></div>
-    
+
 
     <div class="container">
         <div class="page-bg"></div>
@@ -20,12 +24,12 @@
             <div class="half-circle"></div>
             <div class="half-circle-top"></div>
             <div class="progress-bar-circle center">&#8595;</div>
-          </a>
+        </a>
         <div class="menu-icon center sticky">
             <div class="menu-icon-line"></div>
             <div class="menu-icon-line"></div>
         </div>
-        
+
 
         <nav class="navbar">
             <a href="#section1" class="navbar-link pointer-enter">Home</a>
@@ -41,7 +45,7 @@
 
 
         <section class="section1" id="section1">
-            
+
             <a href="#" class="logo">Adeeb K.M</a>
             <div class="circles">
                 <div class="circle circle1"></div>
@@ -132,103 +136,95 @@
         </section>
         <!--section edns here -->
         <section class="section4" id="section4">
-        <h1 class="sectionheading">What I can do</h1>
-        <div class="services-wrapper center">
-            <div class="service">
-                <a href="#" class="service-btn pointer-enter"><span>HTML</span></a>
-                <p class="service-text">Web pages development, Web document Creation, Internet navigation</p>
+            <h1 class="sectionheading">What I can do</h1>
+            <div class="services-wrapper center">
+                <div class="service">
+                    <a href="#" class="service-btn pointer-enter"><span>HTML</span></a>
+                    <p class="service-text">Web pages development, Web document Creation, Internet navigation</p>
+                </div>
+                <div class="service">
+                    <a href="#" class="service-btn pointer-enter"><span>CSS</span></a>
+                    <p class="service-text">Creating a good presentation of a web document by HTML</p>
+                </div>
+                <div class="service">
+                    <a href="#" class="service-btn pointer-enter"><span>HACKING</span></a>
+                    <p class="service-text"> Network Hacking, Gaining Access, Post Exploitation</p>
+                </div>
+                <div class="service">
+                    <a href="#" class="service-btn pointer-enter"><span>WRITING</span></a>
+                    <p class="service-text">Content, Documentation, Poetry, Short Stories</p>
+                </div>
+                <div class="service">
+                    <a href="#" class="service-btn pointer-enter"><span>IoT</span></a>
+                    <p class="service-text">Working on projects related to IoT, for example: live navigation tracker</p>
+                </div>
             </div>
-            <div class="service">
-                <a href="#" class="service-btn pointer-enter"><span>CSS</span></a>
-                <p class="service-text">Creating a good presentation of a web document by HTML</p>
-            </div>
-            <div class="service">
-                <a href="#" class="service-btn pointer-enter"><span>HACKING</span></a>
-                <p class="service-text"> Network Hacking, Gaining Access, Post Exploitation</p>
-            </div>
-            <div class="service">
-                <a href="#" class="service-btn pointer-enter"><span>WRITING</span></a>
-                <p class="service-text">Content, Documentation, Poetry, Short Stories</p>
-            </div>
-            <div class="service">
-                <a href="#" class="service-btn pointer-enter"><span>IoT</span></a>
-                <p class="service-text">Working on projects related to IoT, for example: live navigation tracker</p>
-            </div>
-        </div>
-    </section>
-    <!-- section 5 idhar se shuru -->
-    <section class="section5 center" id="section5">
-        <h1 class="sectionheading">Contact Me</h1>
+        </section>
+        <!-- section 5 idhar se shuru -->
+        <section class="section5 center" id="section5">
+            <h1 class="sectionheading">Contact Me</h1>
 
-        <div class="form-wrapper">
-          <h2 class="form-heading">Let's Talk</h2>
-          <form class="contact-form center" action="POST" data-netlify="true">
-            <input
-              type="text"
-              class="contact-form-input pointer-enter"
-              placeholder="Name"
-              id="name"
-              autocomplete="off"
-              name="name"
-            />
-            <p class="message">Error Message</p>
-            <input
-              type="text"
-              class="contact-form-input pointer-enter"
-              placeholder="Email"
-              id="email"
-              autocomplete="off"
-              name="email"
-            />
-            <p class="message">Error Message</p>
-            <input
-              type="text"
-              class="contact-form-input pointer-enter"
-              placeholder="Subject"
-              id="subject"
-              autocomplete="off"
-              name="subject"
-            />
-            <p class="message">Error Message</p>
-            <textarea
-              class="contact-form-input contact-form-textarea pointer-enter"
-              placeholder="Message"
-              id="message"
-              autocomplete="off"
-              name="message"
-            ></textarea>
-            <p class="message">Error Message</p>
-            <input
-              type="submit"
-              class="form-submit-btn pointer-enter"
-              value="Send Request"
-            />
-          </form>
-        </div>
+            <div class="form-wrapper">
+                <h2 class="form-heading">Let's Talk</h2>
+                <form class="contact-form center" action="POST" data-netlify="true">
+                    <input type="text" class="contact-form-input pointer-enter" placeholder="Name" id="name"
+                        autocomplete="off" name="name" />
+                    <p class="message">Error Message</p>
+                    <input type="text" class="contact-form-input pointer-enter" placeholder="Email" id="email"
+                        autocomplete="off" name="email" />
+                    <p class="message">Error Message</p>
+                    <input type="text" class="contact-form-input pointer-enter" placeholder="Subject" id="subject"
+                        autocomplete="off" name="subject" />
+                    <p class="message">Error Message</p>
+                    <textarea class="contact-form-input contact-form-textarea pointer-enter" placeholder="Message"
+                        id="message" autocomplete="off" name="message"></textarea>
+                    <p class="message">Error Message</p>
+                    <input type="submit" class="form-submit-btn pointer-enter" value="Send Request" />
+                </form>
+            </div>
 
-        <div class="slideshow">
-          <a href="https://github.com/adeebkm" class="slideshow-link" target="_blank">
-            <img src="images/social-icons/slideshow-img-1.png" />
-          </a>
-          <a href="https://www.linkedin.com/in/adeeb-khaja-mohamed-bb8387204/" class="slideshow-link" target="_blank">
-            <img src="images/social-icons/slideshow-img-2.png" />
-          </a>
-          <a href=mailto:adeeb.kmd@gmail.com?subject="I'm here from your portfolio" class="slideshow-link light">
-            <img src="images/social-icons/slideshow-img-3.png" />
-          </a>
-          <a href="https://www.instagram.com/adeebk.m/" class="slideshow-link" target="_blank">
-            <img src="images/social-icons/slideshow-img-4.png" />
-          </a>
-          <a href="https://www.youtube.com/channel/UC_p65UuOPLeRjYRkNHD7MjQ" class="slideshow-link" target="_blank">
-            <img src="images/social-icons/slideshow-img-6.png" />
-          </a>
-        </div>
-    </section>
+            <div class="slideshow">
+                <a href="https://github.com/adeebkm" class="slideshow-link" target="_blank">
+                    <img src="images/social-icons/slideshow-img-1.png" />
+                </a>
+                <a href="https://www.linkedin.com/in/adeeb-khaja-mohamed-bb8387204/" class="slideshow-link"
+                    target="_blank">
+                    <img src="images/social-icons/slideshow-img-2.png" />
+                </a>
+                <a href=mailto:adeeb.kmd@gmail.com?subject="I'm here from your portfolio" class="slideshow-link light">
+                    <img src="images/social-icons/slideshow-img-3.png" />
+                </a>
+                <a href="https://www.instagram.com/adeebk.m/" class="slideshow-link" target="_blank">
+                    <img src="images/social-icons/slideshow-img-4.png" />
+                </a>
+                <a href="https://www.youtube.com/channel/UC_p65UuOPLeRjYRkNHD7MjQ" class="slideshow-link"
+                    target="_blank">
+                    <img src="images/social-icons/slideshow-img-6.png" />
+                </a>
+            </div>
+        </section>
 
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
 
     <script src="script.js"></script>
+
+    <script>
+        function preloaderFadeOutInit() {
+            $('.preloader').fadeOut('slow');
+            $('body').attr('id', '');
+        }
+        // Window load function
+        jQuery(window).on('load', function () {
+            (function ($) {
+                setTimeout(function (){
+                    preloaderFadeOutInit();
+                },4000);
+            })(jQuery);
+        });
+
+    </script>
 </body>
+
 </html>

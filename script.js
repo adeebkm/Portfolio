@@ -251,7 +251,7 @@ menuIcon.addEventListener('click', ()=>{
 
 
 const aboutMeText=document.querySelector('.aboutmetext');
-const aboutMeTextContent="Hey there. I'm Adeeb, a web devloper, graphic designer, video editor, ethical hacker, AR Expert and a streamer. I love to explore new fields and constantly work to master whatever I do. I love to solve CTF challenges. I am also part of the student press team at Under 25 ";
+const aboutMeTextContent="Hey there. I'm Adeeb, a web devloper, graphic designer, video editor, ethical hacker, AR Expert and a streamer. I love to explore new fields and constantly work to master whatever I do. I love to solve CTF challenges. I am also part of the student press team at Under 25. I also have over 10 million views on my snapchat lenses that I've build. ";
 
 Array.from(aboutMeTextContent).forEach((char) => {
   const span = document.createElement('span');
