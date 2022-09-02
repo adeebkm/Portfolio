@@ -166,7 +166,7 @@
 
             <div class="form-wrapper">
                 <h2 class="form-heading">Let's Talk</h2>
-                <form class="contact-form center" action="POST" data-netlify="true">
+                <form class="contact-form center" action="POST" data-netlify-recaptcha="true" data-netlify="true">
                     <input type="text" class="contact-form-input pointer-enter" placeholder="Name" id="name"
                         autocomplete="off" name="name" />
                     <p class="message">Error Message</p>
@@ -178,6 +178,7 @@
                     <p class="message">Error Message</p>
                     <textarea class="contact-form-input contact-form-textarea pointer-enter" placeholder="Message"
                         id="message" autocomplete="off" name="message"></textarea>
+                        <div data-netlify-recaptcha="true"></div>
                     <p class="message">Error Message</p>
                     <input type="submit" class="form-submit-btn pointer-enter" value="Send Request" />
                 </form>
