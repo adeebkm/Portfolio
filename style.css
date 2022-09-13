@@ -680,6 +680,7 @@ html {
 /*section 3 stuff ends here*/
 /*section 4 stuff starts here*/
 .section4{
+  padding-top: 12rem;
   width: 100%;
   position: relative;
   z-index: 99;
